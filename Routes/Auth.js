@@ -7,7 +7,7 @@ import jwt from "jsonwebtoken";
 
 // Register User
 router.get("/", (req, res) => {
-    res.send('ljldjlfaljlsajljlaj');
+    res.send('I am trying to signin or signup user');
 })
 
 router.post("/signup", async (req, res) => {
